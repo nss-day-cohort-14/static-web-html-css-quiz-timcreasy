@@ -1,0 +1,38 @@
+/*===================== PAGE STYLING ==========================*/
+
+body {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+/*===================== CARD CONTAINER STYLING ==========================*/
+
+.card {
+  width: 30%;
+  display: inline-block;
+  border: 1px solid lightblue;
+  box-sizing: border-box;
+  margin-left: 2.25%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/*===================== CARD CONTENT STYLING ==========================*/
+
+.productTitle h1 {
+  border: 1px dotted lightgray;
+  text-align: center;
+  margin: 0;
+  padding: 19px;
+}
+
+.productSectionOne p:nth-child(2) {
+  text-align: justify;
+}
+
+.productSectionOne p:nth-child(3) {
+  margin: 0;
+  background: darkgray;
+  color: yellow;
+}
