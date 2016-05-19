@@ -27,12 +27,26 @@ body {
   padding: 19px;
 }
 
-.productSectionOne p:nth-child(2) {
-  text-align: justify;
+.productSectionOne img {
+  display: block;
+  margin: 10px auto;
 }
 
-.productSectionOne p:nth-child(3) {
-  margin: 0;
-  background: darkgray;
-  color: yellow;
+.productSectionOne p:nth-of-type(1) {
+  text-align: justify;
+  padding-left: 8px;
+  padding-right: 8px;
 }
+
+.productSectionOne p:nth-of-type(2) {
+  margin: 0;
+  padding: 4px 4px;
+  background: #808080;
+  color: #F7FD39;
+}
+
+.productSectionTwo p:nth-child(2),
+.productSectionTwo p:nth-child(3) {
+  font-weight: bold;
+}
+
