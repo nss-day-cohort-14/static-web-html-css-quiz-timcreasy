@@ -45,8 +45,27 @@ body {
   color: #F7FD39;
 }
 
+.productSectionTwo h3 {
+  margin-bottom: 3px;
+  margin-left: 7px;
+}
+
 .productSectionTwo p:nth-child(2),
 .productSectionTwo p:nth-child(3) {
   font-weight: bold;
+  margin: 2px 15px;
 }
 
+.productSectionTwo p:nth-child(1) {
+  margin: 0;
+  font-size: .7em;
+}
+
+.productSectionThree h3 {
+  margin: 3px 7px;
+}
+
+.productSectionThree p {
+  font-weight: bold;
+  margin: 2px 15px;
+}
