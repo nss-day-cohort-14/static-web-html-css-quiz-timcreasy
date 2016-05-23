@@ -1,0 +1,71 @@
+/*===================== PAGE STYLING ==========================*/
+
+body {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+/*===================== CARD CONTAINER STYLING ==========================*/
+
+.card {
+  width: 30%;
+  display: inline-block;
+  border: 1px solid lightblue;
+  box-sizing: border-box;
+  margin-left: 2.25%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/*===================== CARD CONTENT STYLING ==========================*/
+
+.productTitle h1 {
+  border: 1px dotted lightgray;
+  text-align: center;
+  margin: 0;
+  padding: 19px;
+}
+
+.productDescription img {
+  display: block;
+  margin: 10px auto;
+}
+
+.productDescription p:nth-of-type(1) {
+  text-align: justify;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.productDescription p:nth-of-type(2) {
+  margin: 0;
+  padding: 4px 4px;
+  background: #808080;
+  color: #F7FD39;
+}
+
+.productSpecifications h3 {
+  margin-bottom: 3px;
+  margin-left: 7px;
+}
+
+.productSpecifications p:nth-child(2),
+.productSpecifications p:nth-child(3) {
+  font-weight: bold;
+  margin: 2px 15px;
+}
+
+.productSpecifications p:nth-child(1) {
+  margin: 0;
+  font-size: .7em;
+}
+
+.productPricing h3 {
+  margin: 3px 7px;
+}
+
+.productPricing p {
+  font-weight: bold;
+  margin: 2px 15px;
+}
